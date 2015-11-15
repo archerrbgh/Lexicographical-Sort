@@ -8,10 +8,14 @@ def lex_sort(word_list, ordering):
 
 
 if __name__ == "__main__":
-    list1 = lex_sort(['acb', 'abc', 'bca', 'abca', 'aabc', 'acbc'], 'abc')
-    list2 = lex_sort(['acb', 'abc', 'bca', 'abca', 'aabc', 'acbc'], 'cba')
+    list1 = lex_sort(['acb', 'abc', 'bca'], 'abc')
+    list2 = lex_sort(['acb', 'abc', 'bca'], 'cba')
     list3 = lex_sort(['aaa', 'aa', ''], 'a')
+    list4 = lex_sort(['acb', 'abc', 'bca', 'abca', 'aabc', 'acbc'], 'abc')
+    list5 = lex_sort(['acb', 'abc', 'bca', 'abca', 'aabc', 'acbc'], 'cba')
 
     print list1
     print list2
     print list3
+    print list4
+    print list5
